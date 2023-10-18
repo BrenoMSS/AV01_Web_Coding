@@ -1,0 +1,63 @@
+:root{
+    --cor-primaria:#007bff;
+    --cor-secundaria:red;
+    --cor-fundo:#f8f8f8;
+    --cor-texto:#333;
+    --cor-1: #ac35c4;
+    --cor-2: #dea3f9;
+    --cor-3: #691084;
+    --cor-4: #965aa1;
+    --cor-5: #aea5d2;
+   }
+header{
+    background-color: var(--cor-2);
+    color:white;
+    padding: 10px 0;
+    text-align: center;
+}
+.logo img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+}
+nav ul li{
+    display:inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: color 0.7s;
+}
+nav ul li a:hover{
+    color: var(--cor-secundaria);
+}
+
+.intro{
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, var(--cor-2), var(--cor-1));
+    color: white;
+}
+.testimonials{
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, var(--cor-1), var(--cor-1));
+    color: white; 
+}
+.setor{
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom, var(--cor-1), var(--cor-1));
+    color: white;
+}
+
+
+
